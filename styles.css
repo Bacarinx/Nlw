@@ -1,0 +1,155 @@
+/*Reset Css*/
+*{
+    margin:0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+header{
+    margin-top: 32px;
+    text-align: center;
+}
+
+header div{
+    width: 152px;
+    margin: auto;
+    background-image: linear-gradient(90deg,#9572FC 0%, #4DD9B6 44.46%, #43E7AD 50.52%, #E2D45C 100%);
+    border-radius: 50%;
+    display: flex;
+    padding: 4px;
+    transition: transform .2s;
+}
+
+header div:hover{
+    transform: scale(1.1);
+}
+
+header img {
+    border-radius: 50%;
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+}
+
+body {
+    background-image: url(./assets/Fundo.jpg);
+    background-position: top center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color: #121214 ;
+}
+
+body * {
+    font-family: 'inter', 'sans-serif'; 
+    line-height: 160%;
+}
+
+main{
+    max-width: 580px;
+    width: 90%;
+    margin: 32px auto;
+    display: grid;
+    gap:24px;
+}
+
+section{
+    color: white;
+    background-image: linear-gradient(90deg,#9572FC 0%, #4DD9B6 44.46%, #43E7AD 50.52%, #E2D45C 100%);
+    padding-top: 4px;
+    border-radius: 10px;
+}
+
+
+section div {
+    background-color: #2A2634;
+    padding: 32px;
+    padding-top: 24px;
+    border-radius: 8px;
+    
+}
+
+section h2{
+    font-weight: 900;
+    font-size: 24px;
+    letter-spacing: -0.47px;
+}
+
+section p {
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: -0.18px;
+    color: #A1A1AA; 
+}
+
+ul{
+    display: flex;
+    gap: 16px;
+    margin-top: 24px;
+}
+
+section ul li{
+transition: transform .2s;
+}
+
+section ul li:hover{
+transform: scale(1.1);
+}
+
+.games-lists img {
+    border-radius: 8px;
+    width: 90px;
+}
+
+.channel-lists img {
+    width: 70px;
+    border-radius: 50%;
+    border: 1px solid #443E54;
+}
+
+/* Animation */
+
+header div{
+    animation: fromtop .8s .4s backwards;
+}
+
+main section{
+    animation: frombottom .7s .4s backwards ;
+}
+
+main section:nth-child(1) {
+    animation-delay: .4s
+}
+
+main section:nth-child(2) {
+    animation-delay: .8s
+}
+
+main section:nth-child(3) {
+    animation-delay: 1.2s
+}
+
+@keyframes frombottom {
+    from{ 
+        transform: translatey(30px);
+        opacity: 0;
+    }
+
+    to{
+        transform: translatey(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes fromtop {
+    from{ 
+        transform: translatey(-30px);
+        opacity: 0;
+    }
+
+    to{
+        transform: translatey(0px);
+        opacity: 1;
+    }
+}

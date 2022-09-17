@@ -4,7 +4,7 @@
 
 projeto desenvolvido no evento Next Level week da Rocketseat
 
-[🔗 Clique aqui para acessar] (https://bacarinx.github.io/Nlw)
+[🔗 Clique aqui para acessar](https://bacarinx.github.io/Nlw/)
 
 ## 🛠️ Tecnologias 
 

@@ -2,7 +2,7 @@
 
 ![preview](./.github/preview.png)
 
-projeto desenvolvido no evento Next Level week da Rocketseat
+projeto desenvolvido no evento Next Level week da Rocketseat.
 
 [🔗 Clique aqui para acessar](https://bacarinx.github.io/Nlw/)
 
@@ -10,7 +10,7 @@ projeto desenvolvido no evento Next Level week da Rocketseat
 
     -HTML
     -CSS
-    Git e Github
+    -Git e Github
 
 ## 📧 Contato
 
